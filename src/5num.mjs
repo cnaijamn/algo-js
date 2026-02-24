@@ -1,7 +1,8 @@
 /*
  * 五数要約 five-number summary.
  */
-module.exports = fivenum;
+//module.exports = fivenum;
+export { fivenum as default };
 
 /**
  * 五数要約.

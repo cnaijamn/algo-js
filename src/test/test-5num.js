@@ -1,5 +1,5 @@
-const assert = require('assert');
-const fivenum = require('../5num');
+import assert from 'node:assert';
+import fivenum from '../5num.mjs';
 
 const x = [80,45,90,60,65,75,70,50,95];
 const ret = fivenum(x);
