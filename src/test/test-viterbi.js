@@ -1,5 +1,5 @@
 const assert = require('assert');
-const viterbi = require('../viterbi');
+const viterbi = require('../etc/viterbi');
 
 // https://en.wikipedia.org/wiki/Viterbi_algorithm
 {
