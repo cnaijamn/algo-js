@@ -1,18 +1,18 @@
 /*
- * ‰©‹à•ªŠ„–@ golden section search.
+ * é»„é‡‘åˆ†å‰²æ³• golden section search.
  */
-module.exports = goldsect;
+export { goldsect as default };
 
 /**
- * ‰©‹à•ªŠ„–@.
- * @param {number} a ‹æŠÔ‰ºŒÀ
- * @param {number} b ‹æŠÔãŒÀ
- * @param {number} tolerance ‹–—eŒë·
- * @param {Function} f ŠÖ”
+ * é»„é‡‘åˆ†å‰²æ³•.
+ * @param {number} a åŒºé–“ã®ä¸‹é™
+ * @param {number} b åŒºé–“ã®ä¸Šé™
+ * @param {number} tolerance è¨±å®¹èª¤å·®
+ * @param {Function} f é–¢æ•°
  */
 function goldsect(a, b, tolerance, f) {
-  var r = 2 / (3 + Math.sqrt(5));
-  var c, d, fc, fd, t;
+  let r = 2 / (3 + Math.sqrt(5));
+  let c, d, fc, fd, t;
 
   if (a > b) {
     t = a;
@@ -25,7 +25,7 @@ function goldsect(a, b, tolerance, f) {
   fc = f(c);
   fd = f(d);
 
-  for ( ; ; ) {
+  for (; ;) {
     if (fc > fd) {
       a = c;
       c = d;

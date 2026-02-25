@@ -1,5 +1,5 @@
-const assert = require('assert');
-const goldsect = require('../goldsect');
+import assert from 'node:assert';
+import goldsect from '../goldsect.mjs';
 
 const func = (() => {
   let count = 0;
