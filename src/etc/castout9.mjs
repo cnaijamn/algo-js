@@ -15,7 +15,7 @@ export default function castout9(n) {
 }
 
 function _by_number(n) {
-  if (n > Number.MAX_SAFE_INTEGER) {
+  if (!Number.isSafeInteger(n)) {
     throw new RangeError(`n must be an integer less than or equal to ${Number.MAX_SAFE_INTEGER}`);
   }
   while (n >= 9) {
