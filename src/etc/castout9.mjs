@@ -1,7 +1,7 @@
 /**
  * 九去法.
  * @param {number|bigint} n - 整数値
- * @return {bigint} 残りの数
+ * @return {number|bigint} 残りの数
  */
 export default function castout9(n) {
   if (!((Number.isInteger(n) || typeof n === 'bigint') && n >= 0)) {
