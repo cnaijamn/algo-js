@@ -21,5 +21,6 @@
   |castout9     |九去法                             |
   |kuku         |九九                               |
   |leibniz      |ライプニッツの公式                 |
+  |randarr      |配列のランダム値                   |
   |viterbi      |ビタビアルゴリズム                 |
 
