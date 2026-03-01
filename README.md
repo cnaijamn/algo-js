@@ -22,5 +22,6 @@
   |kuku         |九九                               |
   |leibniz      |ライプニッツの公式                 |
   |randarr      |配列のランダム値                   |
+  |roulette     |ルーレット選択                     |
   |viterbi      |ビタビアルゴリズム                 |
 
