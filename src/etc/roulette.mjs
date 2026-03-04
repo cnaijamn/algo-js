@@ -1,5 +1,7 @@
 /*
  * ルーレット選択.
+ * @param TODO
+ * @return TODO
  */
 export default function roulette(dat) {
   let sz = dat.reduce((a, c) => a + c.value, 0);

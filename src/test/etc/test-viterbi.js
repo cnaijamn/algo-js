@@ -18,7 +18,6 @@ const viterbi = require('../../etc/viterbi');
   assert.deepEqual(X.path, [ 'Healthy', 'Healthy', 'Fever' ]);
 
   /*
-             0            1            2
   Healthy: 0.30000 0.08400 0.00588
   Fever: 0.04000 0.02700 0.01512
   The steps of states are Healthy Healthy Fever with highest probability of 0.01512
@@ -52,9 +51,8 @@ const viterbi = require('../../etc/viterbi');
   assert.deepEqual(X.path, [ 'Sunny', 'Rainy', 'Rainy' ]);
 
   /*
-           0            1            2
   Rainy: 0.06000 0.03840 0.01344
   Sunny: 0.24000 0.04320 0.00259
   The steps of states are Sunny Rainy Rainy with highest probability of 0.01344
-   */
+  */
 }
